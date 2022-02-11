@@ -1,5 +1,15 @@
+
 .App {
-  text-align: center;
+  min-height: 100vh;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://images.unsplash.com/photo-1519681393784-d120267933ba?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1124&q=100');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .App-logo {
@@ -35,4 +45,44 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.field{
+
+ 
+  
+  width: 30%;
+  height: 30vh;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(255, 255, 255, 0.75);
+  border-radius: 12px;
+  border: 1px solid rgba(209, 213, 219, 0.3);
+}
+button{
+  margin: 4px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  font-size: 15px;
+  margin-top: 5px;
+  background-color: white;
+  border: none;
+  transition: all 0.1s ease-in;
+}
+
+button:hover{
+  transform: scale(1.05);
+}
+
+input{
+  padding: 5px;
+  text-transform: capitalize;
 }
